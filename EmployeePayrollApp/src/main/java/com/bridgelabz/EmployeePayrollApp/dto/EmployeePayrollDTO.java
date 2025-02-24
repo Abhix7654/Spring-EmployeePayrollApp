@@ -1,4 +1,4 @@
-package com.bridgelabz.EmployeePayrollApp.dto;
+package com.bridgelabz.employeepayrollapp.dto;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
