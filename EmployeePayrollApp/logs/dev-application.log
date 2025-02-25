@@ -161,3 +161,76 @@ Caused by: java.sql.SQLException: Access denied for user 'Aix7654'@'localhost' (
 2025-02-25 15:05:36 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.model.EmployeePayroll> com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.createEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'name': rejected value [hi]; codes [Pattern.employeePayrollDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@327ef45b,^[A-Z][a-zA-Z]{2,}$]; default message [Name must start with a capital letter and be at least 3 characters long]] ]
 2025-02-25 15:13:01 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.model.EmployeePayroll> com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.createEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [34]; codes [Min.employeePayrollDTO.salary,Min.salary,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],1000]; default message [Salary must be at least 1000]] ]
 2025-02-25 15:13:10 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.model.EmployeePayroll> com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.createEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO) with 2 errors: [Field error in object 'employeePayrollDTO' on field 'name': rejected value [hi]; codes [Pattern.employeePayrollDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@327ef45b,^[A-Z][a-zA-Z]{2,}$]; default message [Name must start with a capital letter and be at least 3 characters long]] [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [34]; codes [Min.employeePayrollDTO.salary,Min.salary,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],1000]; default message [Salary must be at least 1000]] ]
+2025-02-25 16:20:28 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 14132 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 16:20:28 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 16:20:28 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "dev"
+2025-02-25 16:20:32 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 16:20:32 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 4.942 seconds (process running for 5.517)
+2025-02-25 16:20:32 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'DEV' Environment!
+2025-02-25 16:20:32 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Employee Payroll DB User is Abhix7654
+2025-02-25 16:21:47 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.model.EmployeePayroll> com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.createEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [44]; codes [Min.employeePayrollDTO.salary,Min.salary,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],1000]; default message [Salary must be at least 1000]] ]
+2025-02-25 16:22:13 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 16460 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 16:22:13 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 16:22:13 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "dev"
+2025-02-25 16:22:17 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 16:22:18 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 4.844 seconds (process running for 5.354)
+2025-02-25 16:22:18 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'DEV' Environment!
+2025-02-25 16:22:18 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Employee Payroll DB User is Abhix7654
+2025-02-25 16:22:34 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.model.EmployeePayroll> com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.createEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'salary': rejected value [44]; codes [Min.employeePayrollDTO.salary,Min.salary,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.salary,salary]; arguments []; default message [salary],1000]; default message [Salary must be at least 1000]] ]
+2025-02-25 16:24:19 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bridgelabz.employeepayrollapp.model.EmployeePayroll> com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.createEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO): [Field error in object 'employeePayrollDTO' on field 'name': rejected value [bhixxhekk]; codes [Pattern.employeePayrollDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayrollDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@7e1dc320,^[A-Z][a-zA-Z]{2,}$]; default message [Name must start with a capital letter and be at least 3 characters long]] ]
+2025-02-25 16:24:56 [http-nio-8080-exec-9] INFO  c.b.e.s.EmployeePayrollService - Fetching employee with ID: 1
+2025-02-25 16:25:00 [http-nio-8080-exec-10] INFO  c.b.e.s.EmployeePayrollService - Fetching employee with ID: 100
+2025-02-25 16:25:00 [http-nio-8080-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.bridgelabz.employeepayrollapp.exception.EmployeeNotFoundException: Employee with ID 100 not found] with root cause
+com.bridgelabz.employeepayrollapp.exception.EmployeeNotFoundException: Employee with ID 100 not found
+	at com.bridgelabz.employeepayrollapp.services.EmployeePayrollService.lambda$getEmployeeById$0(EmployeePayrollService.java:30)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.bridgelabz.employeepayrollapp.services.EmployeePayrollService.getEmployeeById(EmployeePayrollService.java:30)
+	at com.bridgelabz.employeepayrollapp.controller.EmployeePayrollController.getEmployeeById(EmployeePayrollController.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
