@@ -1,0 +1,50 @@
+2025-02-25 12:47:27.407 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 3212 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 12:47:27.408 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 12:47:27.409 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "prod"
+2025-02-25 12:47:30.209 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 12:47:30.505 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-02-25 12:47:30.520 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-02-25 12:47:30.577 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-02-25 12:48:23.563 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 11152 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 12:48:23.564 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 12:48:23.564 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "prod"
+2025-02-25 12:48:26.388 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 12:48:26.671 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 3.523 seconds (process running for 3.895)
+2025-02-25 12:48:26.673 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'PROD' Environment!
+2025-02-25 12:56:23.845 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 10616 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 12:56:23.847 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 12:56:23.848 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "prod"
+2025-02-25 12:56:27.591 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 12:56:28.071 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 4.765 seconds (process running for 5.279)
+2025-02-25 12:56:28.075 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'PROD' Environment!
+2025-02-25 12:56:33.941 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 17536 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 12:56:33.943 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 12:56:33.944 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "prod"
+2025-02-25 12:56:37.936 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 12:56:38.420 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 5.024 seconds (process running for 5.598)
+2025-02-25 12:56:38.424 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'PROD' Environment!
+2025-02-25 12:57:04.160 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 18032 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 12:57:04.161 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 12:57:04.162 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "prod"
+2025-02-25 12:57:08.240 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 12:57:08.771 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 5.2 seconds (process running for 5.77)
+2025-02-25 12:57:08.776 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'PROD' Environment!
+2025-02-25 12:59:06.534 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 7248 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-25 12:59:06.536 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-25 12:59:06.537 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "prod"
+2025-02-25 12:59:10.372 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-25 12:59:10.816 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 4.839 seconds (process running for 5.357)
+2025-02-25 12:59:10.820 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'PROD' Environment!
