@@ -1,7 +1,9 @@
 package com.bridgelabz.employeepayrollapp.services;
 
+import com.bridgelabz.employeepayrollapp.dto.EmployeePayrollDTO;
 import com.bridgelabz.employeepayrollapp.model.EmployeePayroll;
 import com.bridgelabz.employeepayrollapp.repository.EmployeePayrollRepository;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,6 +17,7 @@ public class EmployeePayrollService {
     @Autowired
     private EmployeePayrollRepository repository;
 
+
     public List<EmployeePayroll> getAllEmployees() {
         log.info("Fetching all employees");
         return repository.findAll();
@@ -25,12 +28,15 @@ public class EmployeePayrollService {
         return repository.findById(id).orElse(null);
     }
 
-    public EmployeePayroll createEmployee(EmployeePayroll employee) {
-        log.info("Creating employee: {}", employee);
+    public EmployeePayroll createEmployee(@Valid EmployeePayrollDTO employeeDTO) {
+        EmployeePayroll employee = new EmployeePayroll();
+        employee.setName(employeeDTO.getName());
+        employee.setSalary(employeeDTO.getSalary());
+
         return repository.save(employee);
     }
 
-    public EmployeePayroll updateEmployee(int id, EmployeePayroll newEmployee) {
+    public EmployeePayroll updateEmployee(int id, @Valid EmployeePayrollDTO newEmployee) {
         Optional<EmployeePayroll> existingEmployee = repository.findById(id);
         if (existingEmployee.isPresent()) {
             log.info("Updating employee with ID: {}", id);

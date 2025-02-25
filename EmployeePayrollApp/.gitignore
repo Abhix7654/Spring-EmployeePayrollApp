@@ -37,3 +37,7 @@ build/
 mvnw.cmd
 HELP.md
 
+logs
+mvnw.cmd
+mvnw
+application.log
