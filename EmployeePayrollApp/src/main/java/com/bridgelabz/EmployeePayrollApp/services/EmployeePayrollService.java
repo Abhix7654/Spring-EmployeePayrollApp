@@ -32,8 +32,8 @@ public class EmployeePayrollService {
 
     public EmployeePayroll createEmployee(@Valid EmployeePayrollDTO employeeDTO) {
         EmployeePayroll employee = new EmployeePayroll();
-        employee.setName(employeeDTO.getName());
-        employee.setSalary(employeeDTO.getSalary());
+        employee.setName(employeeDTO.name);
+        employee.setSalary(employeeDTO.salary);
 
         return repository.save(employee);
     }
@@ -43,8 +43,8 @@ public class EmployeePayrollService {
         if (existingEmployee.isPresent()) {
             log.info("Updating employee with ID: {}", id);
             EmployeePayroll employee = existingEmployee.get();
-            employee.setName(newEmployee.getName());
-            employee.setSalary(newEmployee.getSalary());
+            employee.setName(newEmployee.name);
+            employee.setSalary(newEmployee.salary);
             return repository.save(employee);
         }
         log.warn("Employee with ID {} not found for update", id);
