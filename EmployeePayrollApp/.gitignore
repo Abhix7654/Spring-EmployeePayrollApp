@@ -41,3 +41,6 @@ logs
 mvnw.cmd
 mvnw
 application.log
+# Ignore log files
+logs/
+*.log
