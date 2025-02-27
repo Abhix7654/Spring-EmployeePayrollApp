@@ -15,11 +15,11 @@ import java.util.Map;
 @Slf4j
 @ControllerAdvice
 public class EmployeePayrollExceptionHandler {
-    private static final String message = "Exception while processing REST Request";
+    private static final String message = "Exception while processing REST Request:";
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public ResponseEntity<ResponseDTO> handleHttpMessageNotReadableException(HttpMessageNotReadableException exception) {
-        log.error("Invalid Date Format", exception);
-        ResponseDTO responseDTO = new ResponseDTO(message, "Should have date in the format dd MMM yyyy");
+        log.error("Invalid Date Format:", exception);
+        ResponseDTO responseDTO = new ResponseDTO(message, "Should have date in the format dd MM yyyy");
         return new ResponseEntity<>(responseDTO, HttpStatus.BAD_REQUEST);
     }
     @ExceptionHandler(MethodArgumentNotValidException.class)
