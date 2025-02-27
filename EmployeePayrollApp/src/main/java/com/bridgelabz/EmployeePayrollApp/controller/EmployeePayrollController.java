@@ -32,7 +32,10 @@ public class EmployeePayrollController {
         EmployeePayroll employee = service.createEmployee(employeeDTO);
         return ResponseEntity.ok(employee);
     }
-
+    @GetMapping("/department/{department}")
+    public ResponseEntity<List<EmployeePayroll>> getEmployeesByDepartment(@PathVariable String department) {
+        return ResponseEntity.ok(service.getEmployeesByDepartment(department));
+    }
     @PutMapping("/update/{id}")
     public ResponseEntity<EmployeePayroll> updateEmployee(@PathVariable int id, @Valid @RequestBody EmployeePayrollDTO employeeDTO) {
         EmployeePayroll updatedEmployee = service.updateEmployee(id, employeeDTO);

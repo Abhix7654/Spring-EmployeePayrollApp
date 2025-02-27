@@ -14,7 +14,7 @@ public class EmployeePayroll {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "employee_id")
-    private int employeeId;
+    private int id;
 
     @Column(name = "name")
     private String name;

@@ -33,7 +33,9 @@ public class EmployeePayrollService implements IEmployeePayrollService {
         EmployeePayroll empData = new EmployeePayroll(empPayrollDTO);
         return repository.save(empData);
     }
-
+    public List<EmployeePayroll> getEmployeesByDepartment(String department) {
+        return repository.findEmployeesByDepartment(department);
+    }
 
     public EmployeePayroll updateEmployee(int id, @Valid EmployeePayrollDTO newEmployeeDTO) {
         EmployeePayroll existingEmployee = repository.findById(id)

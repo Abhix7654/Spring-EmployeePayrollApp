@@ -11,4 +11,5 @@ public interface IEmployeePayrollService {
     EmployeePayroll createEmployee(EmployeePayrollDTO employeeDTO);
     EmployeePayroll updateEmployee(int id, EmployeePayrollDTO employeeDTO);
     boolean deleteEmployee(int id);
+    List<EmployeePayroll> getEmployeesByDepartment(String department);
 }
