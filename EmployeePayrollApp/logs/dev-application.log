@@ -24,3 +24,10 @@
 2025-02-27 12:57:28 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Employee Payroll DB User is Abhix7654
 2025-02-27 12:57:40 [http-nio-8080-exec-1] INFO  c.b.e.s.EmployeePayrollService - Creating employee: Abhixhek
 2025-02-27 12:57:49 [http-nio-8080-exec-3] INFO  c.b.e.s.EmployeePayrollService - Creating employee: Abhixhek
+2025-02-27 15:22:35 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 11172 (C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp\target\classes started by rajab in C:\Users\rajab\Downloads\EmployeePayrollApp\EmployeePayrollApp)
+2025-02-27 15:22:36 [restartedMain] DEBUG c.b.e.EmployeePayrollAppApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 15:22:36 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - The following 1 profile is active: "dev"
+2025-02-27 15:22:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 15:22:40 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Started EmployeePayrollAppApplication in 5.286 seconds (process running for 6.66)
+2025-02-27 15:22:40 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Payroll App Started in 'DEV' Environment!
+2025-02-27 15:22:40 [restartedMain] INFO  c.b.e.EmployeePayrollAppApplication - Employee Payroll DB User is Abhix7654
